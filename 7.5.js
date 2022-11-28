@@ -37,9 +37,9 @@ class ElectricalAppliance{
       }
   
       
-      const tableLamp = new Lamp("Table lamp", "Lenovo", 5, "LED");
+      const tableLamp = new Lamp("Table lamp", "Lenovo", 10, "LED");
       
-      const homePC = new Computer("Table PC", "Imac", 120, "stationary", "for work");
+      const homePC = new Computer("Table PC", "Imac", 140, "stationary", "for work");
       
       tableLamp.unplug();
       homePC.plugIn();
